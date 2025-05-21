@@ -43,7 +43,7 @@ Ten przykład wyświetli do 5 ogłoszeń z Warszawy.
 - PHP 7.4
 
 ## Licencja
-Wtyczka jest licencjonowana na [GPL2](https://www.gnu.org/licenses/gpl-2.0.html).
+Wtyczka jest licencjonowana na [GPL3](https://www.gnu.org/licenses/gpl-3.0.html).
 
 ## Autor
 Wtyczka została stworzona przez [Dolores](https://dolores.sex).
