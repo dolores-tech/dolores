@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomoc – Wtyczka Ogłoszenia Towarzyskie Dolores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f9f9f9; color: #333; }
+        h1 { color: #c40076; }
+        h2 { color: #555; }
+        code { background-color: #eee; padding: 2px 6px; border-radius: 4px; }
+        pre { background-color: #f0f0f0; padding: 10px; border-left: 4px solid #c40076; }
+        .link-section { margin-top: 30px; padding: 15px; background: #fff8fc; border-left: 5px solid #c40076; }
+    </style>
+</head>
+<body>
+
+    <h1>Pomoc – Wtyczka Ogłoszenia Towarzyskie Dolores</h1>
+
+    <h2>Użycie</h2>
+    <p>Wtyczka udostępnia dwa shortcode'y, które można umieścić w treści stron, wpisów lub widgetów tekstowych.</p>
+
+    <h3>1. <code>[ostatnie_ogloszenia]</code></h3>
+    <p>Wyświetla losowe ogłoszenia z portalu Dolores.</p>
+
+    <strong>Parametry:</strong>
+    <ul>
+        <li><code>max</code> – maksymalna liczba ogłoszeń do wyświetlenia (domyślnie 8).</li>
+    </ul>
+
+    <strong>Przykład:</strong>
+    <pre>[ostatnie_ogloszenia max="10"]</pre>
+    <p>Ten przykład wyświetli do 10 losowych ogłoszeń.</p>
+
+    <h3>2. <code>[ogloszenia]</code></h3>
+    <p>Wyświetla ogłoszenia z wybranego miasta.</p>
+
+    <strong>Parametry:</strong>
+    <ul>
+        <li><code>miasto</code> – nazwa miasta, z którego mają być wyświetlone ogłoszenia (np. "Warszawa").</li>
+        <li><code>max</code> – maksymalna liczba ogłoszeń do wyświetlenia (domyślnie 6).</li>
+    </ul>
+
+    <strong>Przykład:</strong>
+    <pre>[ogloszenia miasto="Warszawa" max="5"]</pre>
+    <p>Ten przykład wyświetli do 5 ogłoszeń z Warszawy.</p>
+
+    <h2>Wymagania</h2>
+    <ul>
+        <li>Zainstalowany WordPress (wersja 6.0 lub nowsza)</li>
+        <li>Aktywna wtyczka Dolores Ogłoszenia</li>
+        <li>Połączenie z API ogłoszeń (ustawienia w panelu wtyczki)</li>
+    </ul>
+
+    <div class="link-section">
+        <h2>Więcej informacji</h2>
+        <p>Aktualizacje i aktualności:  
+        <a href="https://dolores.sex" target="_blank">Dolores</a></p>
+    </div>
+
+</body>
+</html>
